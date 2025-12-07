@@ -1,8 +1,9 @@
 services:
   - type: worker
-    name: deriv-bot
+    name: husker
     env: python
-    repo: https://github.com/kheeng-11/bot
+    repo: https://github.com/MustaphaMLawal-herlystack/husker/
     branch: main
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python main.py"
+
